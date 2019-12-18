@@ -1,12 +1,15 @@
-import Dependencies._
+enablePlugins(ScalaJSPlugin)
 
-ThisBuild / scalaVersion     := "2.13.1"
-ThisBuild / version          := "0.0.1"
+name := "zarn"
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "zarn",
-    libraryDependencies ++= Seq(
-      zio
-    )
-  )
+scalaVersion := "2.12.8"
+
+libraryDependencies += "me.shadaj" %%% "slinky-native" % "0.6.3"
+libraryDependencies += "me.shadaj" %%% "slinky-hot" % "0.6.3"
+libraryDependencies += "dev.zio" %%% "zio" % "1.0.0-RC17"
+
+scalacOptions += "-P:scalajs:sjsDefinedByDefault"
+
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
+
+scalaJSModuleKind := ModuleKind.CommonJSModule
