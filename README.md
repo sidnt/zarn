@@ -1,16 +1,5 @@
-# Scala.js + Slinky Expo Template
-This template sets up a simple React Native application written in Scala through [Scala.js](https://www.scala-js.org), [Slinky](https://slinky.dev), and [Expo](https://expo.io).
-
-## Installation
-Install the Expo CLI:
-```
-$ npm install -g expo-cli
-```
-
-Use the template
-```
-$ expo init --template expo-template-scala
-```
+# zio & react native
+This [template](https://github.com/shadaj/expo-template-scala) sets up a simple React Native application written in Scala through [Scala.js](https://www.scala-js.org), [Slinky](https://slinky.dev), and [Expo](https://expo.io).
 
 ## Building Apps
 Once you've created your project, first compile your Scala code to JavaScript by running
