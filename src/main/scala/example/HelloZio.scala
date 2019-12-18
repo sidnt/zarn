@@ -3,7 +3,7 @@ package example
 import zio.App
 import zio.console._
 
-object HelloZio extends App {
+object HelloZio {
 
   def run(args: List[String]) =
     program.fold(_ => 1, _ => 0)
