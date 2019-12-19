@@ -12,7 +12,7 @@ import slinky.core.facade.ReactElement
 
   type Props = Unit
   type State = String
-  def initialState: State = "Hello World"
+  def initialState: State = "Hello World!"
 
   def render(): ReactElement =
     View(
@@ -22,7 +22,7 @@ import slinky.core.facade.ReactElement
         alignItems = "center"
       )
     )(
-      Text("Hello World")
+      Text(initialState)
     )
 
 }
