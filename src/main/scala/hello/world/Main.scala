@@ -13,5 +13,7 @@ object Main {
   }
   
   @JSExportTopLevel("app")
-  val app = App.componentConstructor
+  val app =
+    //App.componentConstructor
+    HW0.componentConstructor
 }
