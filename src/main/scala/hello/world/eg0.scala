@@ -26,6 +26,9 @@ import slinky.core.facade.ReactElement
     )
 
 }
+object eg0 {
+  def apply() = HW0
+}
 
 /* equivalent react-native jsx
 import React, { Component } from 'react';
