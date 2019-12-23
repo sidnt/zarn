@@ -71,6 +71,6 @@ export default class LotsOfGreetings extends Component {
 
 }
 
-object HW1 {
+object eg1 {
   def apply() = SomeGreetings
 }
