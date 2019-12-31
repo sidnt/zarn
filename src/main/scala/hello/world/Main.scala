@@ -19,5 +19,7 @@ object Main {
     //eg1().componentConstructor
     //eg2().componentConstructor
     //eg3().componentConstructor
-    eg4().componentConstructor
+    //eg4().componentConstructor
+    //eg5.a().componentConstructor
+    eg5.b().componentConstructor
 }
