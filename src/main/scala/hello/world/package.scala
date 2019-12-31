@@ -25,7 +25,7 @@ package object world {
   }
 
   /** previously style was defined using this `styles2` approach underneath
-   * then it felt that - what object isTo val isSameAs what Map isTo binding
+   * then it felt that - what an object isTo itsVal isSameAs what Map isTo itsBinding
    * the api differs though. In former case - it's `styles.red`
    * In latter case - it's styles2("red")
    * former is typesafe, latter is not */
