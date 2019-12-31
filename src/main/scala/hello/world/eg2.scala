@@ -27,9 +27,9 @@ import scala.scalajs.js.Dynamic.literal
         alignItems = "center"
       )
     )(
-      Text("Count: " + state), //`state` comes from extending `Component`
+      Text("Count: " + state), /** `state` comes from extending `Component` */
       Button(title = "Tap Me!", onPress = () => {
-        setState(_ + 1)
+        setState(_ + 1) /** here `setState` reference, is on the current component itself, ie, this/self */
       }),
       Button(title = "Reset", onPress = () => {
         setState(0)
