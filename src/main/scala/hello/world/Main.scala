@@ -11,7 +11,7 @@ object Main {
   if (LinkingInfo.developmentMode) {
     hot.initialize()
   }
-  
+
   @JSExportTopLevel("app")
   val app =
     //App.componentConstructor
@@ -21,5 +21,6 @@ object Main {
     //eg3().componentConstructor
     //eg4().componentConstructor
     //eg5.a().componentConstructor
-    eg5.b().componentConstructor
+    //eg5.b().componentConstructor
+    eg6().componentConstructor
 }
