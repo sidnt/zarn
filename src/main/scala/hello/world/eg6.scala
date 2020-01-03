@@ -19,16 +19,13 @@ import scala.scalajs.js.Dynamic.literal
         placeholder = "Type here to translate!",
         onChangeText = { text:String => setState(State(text)) }
         /** onChangeText replaces the current State with a new State instance
-         * #doubt - what happens to the old State object `State("")`? Is it marked for GC? Where was it allocated? Where is it now?*/
+         * #doubt what happens to the old State object `State("")`? Is it marked for GC? Where was it allocated? Where is it now?*/
       ),
       Text("Translation"),
       Text {
         if(state.inputText.length != 0) {
-          val v1: String = state.inputText
-          val v2: Array[String] = v1.split(" ")
-          val v3: Array[String] = v2.map(w => "🍕")
-          val v4: String = v3.mkString(" ")
-          v4
+          state.inputText.split(" ").map(w => "🍕").mkString(" ")
+          /** #doubt what garbage does this↑ computation create */
         }
         else "--"
       }
