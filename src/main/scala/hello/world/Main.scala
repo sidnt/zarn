@@ -22,5 +22,6 @@ object Main {
     //eg4().componentConstructor
     //eg5.a().componentConstructor
     //eg5.b().componentConstructor
-    eg6().componentConstructor
+    //eg6().componentConstructor
+    eg7.a().componentConstructor
 }
