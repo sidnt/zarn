@@ -16,8 +16,10 @@ import scala.scalajs.js.Dynamic.literal
       style = centerStyle
     )(
       TextInput(
-        placeholder = "Type here to translate!", //what happens to the initialState = State("") GC'd??
-        onChangeText = { text:String => setState(State(text)) } //state is replaced with the next state
+        placeholder = "Type here to translate!",
+        onChangeText = { text:String => setState(State(text)) }
+        /** onChangeText replaces the current State with a new State instance
+         * #doubt - what happens to the old State object `State("")`? Is it marked for GC? Where was it allocated? Where is it now?*/
       ),
       Text("Translation"),
       Text {
