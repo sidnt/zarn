@@ -25,7 +25,7 @@ import scala.scalajs.js.Dynamic.literal
       Text {
         if(state.inputText.length != 0) {
           state.inputText.split(" ").map(w => "🍕").mkString(" ")
-          /** #doubt what garbage does this↑ computation create */
+          /** #doubt what garbage does this↑ computation create? */
         }
         else "--"
       }
