@@ -1,7 +1,0 @@
-target/
-.bloop
-.metals
-.idea
-.DS_Store
-node_modules/
-.expo
