@@ -3,7 +3,6 @@ package hello.world
 import scala.scalajs.js
 import scala.scalajs.LinkingInfo
 import scala.scalajs.js.annotation.{JSExportTopLevel, JSImport}
-
 import slinky.native.AppRegistry
 import slinky.hot
 
@@ -23,5 +22,6 @@ object Main {
     //eg5.a().componentConstructor
     //eg5.b().componentConstructor
     //eg6().componentConstructor
-    eg7.a().componentConstructor
+    //eg7.a().componentConstructor
+    hello.zio.eg1()
 }
