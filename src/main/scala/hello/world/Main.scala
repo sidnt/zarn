@@ -23,5 +23,6 @@ object Main {
     //eg5.b().componentConstructor
     //eg6().componentConstructor
     //eg7.a().componentConstructor
-    hello.zio.eg1()
+//    hello.zio.eg1()
+    hello.reactdocs.eg1()
 }
