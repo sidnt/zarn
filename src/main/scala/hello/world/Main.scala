@@ -33,5 +33,7 @@ object Main {
     //eg5.b().componentConstructor
     //eg6().componentConstructor
     //eg7.a().componentConstructor
-    eg8()
+//    eg8()
+//    hello.zio.eg0()
+    hello.zio.eg1()
 }
