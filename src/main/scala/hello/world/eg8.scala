@@ -1,6 +1,5 @@
-package hello.reactdocs
+package hello.world
 
-import hello.world.centerStyle
 import slinky.core._
 import slinky.core.annotations.react
 import slinky.core.facade.Hooks._
@@ -20,6 +19,6 @@ import slinky.native._
   }
 }
 
-object eg1 {
+object eg8 {
   def apply(): ReactComponentClass[_] = StateHook.component
 }
